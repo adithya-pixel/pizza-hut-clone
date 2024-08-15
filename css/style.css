@@ -47,7 +47,8 @@ header {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/home-bg-md.fd136063a321fcde721afb9c812b8392.jpg');
+    background-image: url('../images/home-bg-md.fd136063a321fcde721afb9c812b8392.jpg');
+
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -156,7 +157,7 @@ header {
     top: 50%;
     width: 600px; 
     height: 2px; 
-    background-color: #333232; /
+    background-color: #333232;
 }
 
 .menu-section h2::before {
@@ -166,6 +167,8 @@ header {
 .menu-section h2::after {
     right: -600px; 
 }
+
+/* Adjustments for flexbox and responsiveness */
 .menu-items {
     display: flex;
     justify-content: center; 
@@ -178,22 +181,26 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 650px; 
+    width:550px; 
     margin-bottom: 30px;
-    text-align: center; }
+    text-align: center;
+}
+
 .menu-item img {
     width: 100%;
     height: auto; 
     border-radius: 8px;
 }
 
-
 .menu-item p {
-    margin-top: 0px;
-    font-size: 18px;
+    margin-top: 10px;
+    font-size: 16px;
     color: #ece9e9;
     background-color: #5f5b5b;
+    padding: 10px;
+    border-radius: 8px;
 }
+
 /* Container for the button */
 .but {
     text-align: center; 
